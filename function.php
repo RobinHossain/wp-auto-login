@@ -1,6 +1,9 @@
 <?php
 
-
+function is_wplogin(){
+	$ABSPATH_MY = str_replace(array('\\','/'), DIRECTORY_SEPARATOR, ABSPATH);
+	return ((in_array($ABSPATH_MY.'wp-login.php', get_included_files()) || in_array($ABSPATH_MY.'wp-register.php', get_included_files()) ) || (isset($_GLOBALS['pagenow']) && $GLOBALS['pagenow'] === 'wp-login.php') || $_SERVER['PHP_SELF']== '/wp-login.php');
+}
 if( is_wplogin() ){
 	add_action('login_footer', 'wp_login_script_to_fill_password');
 	function wp_login_script_to_fill_password() {
