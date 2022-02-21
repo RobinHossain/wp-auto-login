@@ -2,7 +2,7 @@
 The the following code will help you to get auto logged in from the wp-login page. You can set the access info based on the user roles.
 
 ## Details
-The many of us need to show a website/theme/plugin demo publically. So, it's the good way to login publically. You don't need to let theme know the user/password. If you see the following animated image you will get idea.
+Many of us need to show a website/theme/plugin demo publically. So, it's a good way to login publically. You don't need to let them know the user/password.
 
 
 ![image](https://res.cloudinary.com/robinbd/image/upload/v1645450527/CDN/w3bd/wp_login.gif)
