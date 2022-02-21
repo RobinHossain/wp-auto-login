@@ -33,7 +33,7 @@ function wp_login_script_to_fill_password() {
                 if(total_click === 0){
                     document.getElementById("user_login").value = user
                     document.getElementById("user_pass").value = pass
-                    document.getElementById("loginform").submit();
+                    document.getElementById("wp-submit").click();
                     total_click +=1;
                 }
             });
