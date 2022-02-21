@@ -26,10 +26,10 @@ if( is_wplogin() ){
             var wl_login_option_text = null;
             var total_click = 0;
 
-            users.admin = {name: 'sajjad', password: '@dH5^Q!H2du18kXatq915X^u'};
-            users.developer = {name: 'mahin', password: 'nK2!tfH1x47nTST9su2jHmOm'};
-            users.manager = {name: 'meherab', password: '%^ukKJlp$ZjiA*OEQp(wLXKT'};
-            users.editor = {name: 'suvo', password: 'L@i!12CB8UP4HUpd6KNi3d@Q'};
+            users.admin = {name: 'sajjad', password: 'alskdfjlaskdjfla'};
+            users.developer = {name: 'mahin', password: 'alskdfjlaskdjfla'};
+            users.manager = {name: 'meherab', password: 'alskdfjlaskdjfla'};
+            users.editor = {name: 'suvo', password: 'alskdfjlaskdjfla'};
 
 
             wrapperDiv.className = 'wl__wrapper';
