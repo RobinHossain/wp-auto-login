@@ -5,7 +5,7 @@ The the following code will help you to get auto logged in from the wp-login pag
 Many of us need to show a website/theme/plugin demo publically. So, it's a good way to login publically. You don't need to let them know the user/password.
 
 
-![image](https://res.cloudinary.com/robinbd/image/upload/v1645450527/CDN/w3bd/wp_login.gif)
+![image](https://res.cloudinary.com/robinbd/image/upload/v1645504614/w3bd/click_to_login.gif)
 
 
 
