@@ -10,6 +10,7 @@ function wp_login_script_to_fill_password() {
         var containerDiv = document.createElement("div");
         var wl_login_option = null;
         var wl_login_option_text = null;
+        var a_an = 'a';
         var total_click = 0;
 
         users.admin = {name: 'sajjad', password: '@dH5^Q!H2du18kXatq915X^u'};
@@ -38,7 +39,8 @@ function wp_login_script_to_fill_password() {
                 }
             });
             wl_login_option.className = 'login_option';
-            wl_login_option_text = document.createTextNode(`Login as an ${type}`);
+            a_an = ['a','e','i','o','u'].indexOf(type.charAt(0)) === -1 ? 'a': 'an'
+            wl_login_option_text = document.createTextNode(`Login as ${a_an} ${type}`);
             wl_login_option.appendChild(wl_login_option_text);
             containerDiv.appendChild(wl_login_option)
         }
